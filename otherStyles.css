@@ -11,7 +11,7 @@
     align-items: center;
   }
   
-  .custom-jumbotron::before {
+.custom-jumbotron::before {
     content: "";
     position: absolute;
     top: 0;
@@ -20,21 +20,22 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
     z-index: 0;
-  }
+}
   
-  .custom-jumbotron h1,
-  .custom-jumbotron p,
-  .custom-jumbotron button {
+.custom-jumbotron h1,
+.custom-jumbotron p,
+.custom-jumbotron button {
     z-index: 1;
     position: relative;
-  }
+}
   
-  .custom-jumbotron h1 {
+.custom-jumbotron h1 {
     font-size: calc(2rem + 4vw);
-  }
+}
   
-  .custom-jumbotron p {
+.custom-jumbotron p {
     font-size: calc(1rem + 1vw);
     margin-bottom: 2rem;
-  }
+}
   
+
