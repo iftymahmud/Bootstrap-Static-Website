@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-color: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.whoWeAre {
+  margin: 2rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .whoWeAre {
+    margin: 5rem 1rem;
+  }
+}

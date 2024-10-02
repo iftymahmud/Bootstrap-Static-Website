@@ -1,0 +1,40 @@
+.custom-jumbotron {
+    background-image: url('contents/darkriver.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 0;
+  }
+  
+  .custom-jumbotron h1,
+  .custom-jumbotron p,
+  .custom-jumbotron button {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .custom-jumbotron h1 {
+    font-size: calc(2rem + 4vw);
+  }
+  
+  .custom-jumbotron p {
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 2rem;
+  }
+  
